@@ -55,3 +55,4 @@ EXPOSE 3100
 
 USER node
 CMD ["node", "--import", "./server/node_modules/tsx/dist/loader.mjs", "server/src/index.ts"]
+# railway deploy
